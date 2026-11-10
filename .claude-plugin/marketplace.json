@@ -1,0 +1,16 @@
+{
+  "name": "footprint-audit",
+  "owner": {
+    "name": "giuseppe-falco"
+  },
+  "metadata": {
+    "description": "Self-audit and clean-up of your own digital footprint, EU/GDPR removal workflow."
+  },
+  "plugins": [
+    {
+      "name": "footprint-audit",
+      "source": "./plugins/footprint-audit",
+      "description": "Self-audit and clean up your own digital footprint, with an EU/GDPR removal workflow (Italy module included)."
+    }
+  ]
+}
