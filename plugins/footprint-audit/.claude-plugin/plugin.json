@@ -12,5 +12,6 @@
     "osint",
     "digital-footprint",
     "right-to-be-forgotten"
-  ]
+  ],
+  "icon": ".claude-plugin/icon.png"
 }

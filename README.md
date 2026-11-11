@@ -41,6 +41,12 @@ As a Claude Code plugin:
 /plugin install footprint-audit@footprint-audit
 ```
 
+With the [skills CLI](https://skills.sh) (also for other agents):
+
+```
+npx skills add giuseppe-falco/footprint-audit
+```
+
 Or copy `plugins/footprint-audit/skills/footprint-audit/` into `~/.claude/skills/`. The skill follows the `SKILL.md` format, so it can be adapted to other agents that support skills.
 
 Then ask, for example: *"Audit my digital footprint"* or *"Check what's online about me and help me remove it"*.
