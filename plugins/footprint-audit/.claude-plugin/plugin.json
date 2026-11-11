@@ -1,8 +1,16 @@
 {
   "name": "footprint-audit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Self-audit and clean up your own digital footprint, with an EU/GDPR removal workflow (Italy module included).",
-  "author": { "name": "giuseppe-falco" },
+  "author": {
+    "name": "giuseppe-falco"
+  },
   "license": "MIT",
-  "keywords": ["privacy", "gdpr", "osint", "digital-footprint", "right-to-be-forgotten"]
+  "keywords": [
+    "privacy",
+    "gdpr",
+    "osint",
+    "digital-footprint",
+    "right-to-be-forgotten"
+  ]
 }

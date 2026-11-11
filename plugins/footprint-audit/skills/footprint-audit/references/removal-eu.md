@@ -26,6 +26,32 @@ Notes:
 - Share only data that are already exposed. Some dubious data brokers use removal requests to collect more data.
 - Write in the site's language when possible. Country modules may provide a translated version.
 
+## Access request under GDPR art. 15
+
+Use it when the platform's self-service export is missing or incomplete, or to learn where data came from. Examples: who uploaded your phone number, and which third parties received your data.
+
+Subject: Data subject access request under Article 15 GDPR
+
+Dear <controller / Data Protection Officer>,
+
+Under Article 15 of Regulation (EU) 2016/679 (GDPR), I request:
+1. confirmation of whether you process personal data concerning me, and a copy of these data (Article 15(3)), in a commonly used electronic format;
+2. the purposes of the processing, the categories of data, and the recipients or categories of recipients;
+3. the retention period, or the criteria used to determine it;
+4. where the data were not collected from me, any available information on their source (Article 15(1)(g)), for example contact lists uploaded by other users;
+5. whether automated decision-making, including profiling, is applied, with meaningful information about the logic involved.
+
+Identifiers to find my data: <account username / email / phone number already linked to the account>.
+
+Please reply within one month of receipt (Article 12(3)).
+
+Kind regards,
+<Full Name>
+
+Notes:
+- Send it through the controller's privacy form or DPO address, as listed in the platform card or the privacy policy. Keep the date it was sent.
+- Share only identifiers the platform already has.
+
 ## Complaint to the supervisory authority
 Lodge a complaint if the controller does not answer within one month (extendable by two further months in complex cases) or refuses. Attach the request you sent and evidence of the publication (dated screenshots). The national authorities are listed on edpb.europa.eu.
 

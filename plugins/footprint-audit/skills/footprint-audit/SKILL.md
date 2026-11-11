@@ -33,6 +33,17 @@ Only one agent can use the browser at a time: the others work with plain fetch.
 
 **Sherlock:** install with `uv tool install sherlock-project` or `pipx install sherlock-project`, then run `sherlock --print-found --no-color --timeout 30 <handle…>` in the background. Known false positives, to discard when they match every handle: Houzz, F3.cool, 7Cups, Envato Forum, TikTok, YouTube, omg.lol. Verify every other hit by opening the page: an account with the same handle often belongs to someone else.
 
+### 1b. Platforms behind a login
+Many platforms show little or nothing to search engines and anonymous fetches. For each platform the user has, or had, an account on, open its card in `references/platforms/` (if there is no card, follow `_TEMPLATE.md`) and work through three views:
+1. **As a stranger:** the platform's own "view as" or public-profile feature, or a logged-out browser. This is what other people actually see.
+2. **In the user's own session:**
+   - Open a visible browser window and let the user log in by hand. Never type, store or ask for passwords or 2FA codes. Never save cookies or session state to disk, and close the browser at the end.
+   - Read only what the user's account can see about the user: tags by others, old posts, profile fields, discoverability settings.
+   - Do not browse other people's private content, and do not change settings without confirmation.
+3. **As the platform sees it:** a self-service data export, or a formal GDPR art. 15 access request (template in `references/removal-eu.md`). It reveals data that is not public: contact uploads, phone numbers, ad interests, linked apps.
+
+Do not create fake or "demo" accounts, and do not automate sign-ups to look at the user from outside. It breaks most platforms' terms, needs phone verification and captchas that must not be bypassed, and sock-puppet accounts are an investigation technique, not a self-audit one. The stranger view and a real secondary account the user already owns and uses by hand cover the same need.
+
 ### 2. Verification and inventory
 Merge the tables into `INVENTORY.md`, with high, medium and low priority sections and the sections "to clarify", "excluded" and "limits". Confidence levels:
 
