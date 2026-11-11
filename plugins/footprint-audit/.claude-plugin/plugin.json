@@ -1,6 +1,6 @@
 {
   "name": "footprint-audit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Self-audit and clean up your own digital footprint, with an EU/GDPR removal workflow (Italy module included).",
   "author": {
     "name": "giuseppe-falco"
@@ -13,5 +13,7 @@
     "digital-footprint",
     "right-to-be-forgotten"
   ],
-  "icon": ".claude-plugin/icon.png"
+  "icon": ".claude-plugin/icon.png",
+  "homepage": "https://github.com/giuseppe-falco/footprint-audit",
+  "repository": "https://github.com/giuseppe-falco/footprint-audit"
 }
